@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heart Rate Monitor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="center">Heart Rate Monitor</h1>
+      <div class="center">
+        <input type="text" id="trackerID" placeholder="Enter Tracker ID" />
+        <button id="connectButton">Connect</button>
+      </div>
+      <table id="heartRateTable">
+        <thead>
+          <tr>
+            <th>Index</th>
+            <th>Tracker ID</th>
+            <th>Heart Rate</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="heartRateData">
+        </tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
